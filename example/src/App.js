@@ -25,7 +25,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        {notes.forEach((n) => (
+        {notes.map((n) => (
           <button key={n} onClick={() => this.onClick(n)}>
             {n}
           </button>
