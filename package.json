@@ -21,7 +21,7 @@
     "web audio"
   ],
   "author": "Nicholas Smith",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fuhton/piano-mp3/issues"
   },
