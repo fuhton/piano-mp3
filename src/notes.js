@@ -1,4 +1,4 @@
-export const notes = [
+var notes = [
   'A0',
   'Bb0',
   'B0',
@@ -89,7 +89,7 @@ export const notes = [
   'C8',
 ];
 
-export const altNames = {
+var altNames = {
   'A#0': 'Bb0',
   'C#1': 'Db1',
   'D#1': 'Eb1',
@@ -126,4 +126,9 @@ export const altNames = {
   'F#7': 'Gb7',
   'G#7': 'Ab7',
   'A#7': 'Bb7',
+};
+
+module.exports = {
+  notes,
+  altNames,
 };

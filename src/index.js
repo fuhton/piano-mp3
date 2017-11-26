@@ -1,3 +1,5 @@
-import { notes } from './notes';
+var notes = require('./notes');
 
-export default notes;
+module.exports = {
+  notes,
+};
