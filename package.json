@@ -5,7 +5,7 @@
   },
   "name": "piano-mp3",
   "description": "This is a repo for holding MP3 files for an acoustic piano, sampled directly from this [repo](https://github.com/gleitz/midi-js-soundfonts). These are exposed for use in another repo. The `/example` is a good show of what this repo can/will be used for.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "directories": {
     "example": "example"
   },
@@ -26,6 +26,9 @@
     "url": "https://github.com/fuhton/piano-mp3/issues"
   },
   "homepage": "https://github.com/fuhton/piano-mp3#readme",
-  "dependencies": {},
+  "dependencies": {
+    "path": "^0.12.7",
+    "tone": "^0.11.11"
+  },
   "devDependencies": {}
 }
